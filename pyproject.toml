@@ -1,0 +1,47 @@
+[project]
+name = "langGraph-Learning"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Lakshay Raj", email = "lakshaywork012@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "beautifulsoup4>=4.15.0",
+    "chromadb>=1.5.9",
+    "faiss-cpu>=1.15.1",
+    "google-generativeai>=0.8.6",
+    "grandalf>=0.8",
+    "httpx>=0.28.1",
+    "ipykernel>=7.4.0",
+    "jupyter>=1.1.1",
+    "langchain>=0.3.30",
+    "langchain-chroma>=0.2.6",
+    "langchain-community>=0.3.31",
+    "langchain-core>=0.3.86",
+    "langchain-google-genai>=2.0.10",
+    "langchain-huggingface>=0.3.1",
+    "langchain-text-splitters>=0.3.11",
+    "langgraph>=1.0.1",
+    "langgraph-checkpoint>=3.0.1",
+    "langgraph-prebuilt>=1.0.1",
+    "langsmith>=0.14.4",
+    "numpy>=2.5.3",
+    "pandas>=3.0.6",
+    "pydantic>=2.13.5",
+    "pypdf>=6.19.0",
+    "python-docx>=1.2.0",
+    "python-dotenv>=1.2.4",
+    "requests>=2.34.2",
+    "sentence-transformers>=6.1.0",
+    "tiktoken>=0.14.0",
+    "unstructured>=0.27.16",
+]
+
+[project.scripts]
+langgraph = "langgraph:main"
+
+[build-system]
+requires = ["uv_build>=0.12.23,<0.13.0"]
+build-backend = "uv_build"

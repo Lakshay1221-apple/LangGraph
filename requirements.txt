@@ -1,0 +1,79 @@
+# ==============================
+# LangChain Core
+# ==============================
+langchain
+langchain-core
+langchain-community
+
+# ==============================
+# LangGraph
+# ==============================
+langgraph
+langgraph-checkpoint
+langgraph-prebuilt
+
+# ==============================
+# Google Gemini
+# ==============================
+langchain-google-genai
+google-generativeai
+
+# ==============================
+# Environment & Configuration
+# ==============================
+python-dotenv
+
+# ==============================
+# Tools / Web / HTTP
+# ==============================
+requests
+httpx
+beautifulsoup4
+
+# ==============================
+# Structured Output / State
+# ==============================
+pydantic
+
+# ==============================
+# Document Processing
+# ==============================
+pypdf
+python-docx
+unstructured
+
+# ==============================
+# Embeddings & Vector Stores
+# ==============================
+faiss-cpu
+chromadb
+langchain-chroma
+langchain-huggingface
+sentence-transformers
+
+# ==============================
+# Data Processing
+# ==============================
+numpy
+pandas
+
+# ==============================
+# Jupyter / Interactive Learning
+# ==============================
+jupyter
+ipykernel
+
+# ==============================
+# Graph Visualization
+# ==============================
+grandalf
+
+# ==============================
+# Evaluation & Observability
+# ==============================
+langsmith
+
+# ==============================
+# Utilities
+# ==============================
+tiktoken
