@@ -16,7 +16,7 @@ langgraph-prebuilt
 # Google Gemini
 # ==============================
 langchain-google-genai
-google-generativeai
+google-genai
 
 # ==============================
 # Environment & Configuration
